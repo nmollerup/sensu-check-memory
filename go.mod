@@ -1,6 +1,6 @@
 module github.com/nmollerup/sensu-check-memory
 
-go 1.21.1
+go 1.21
 
 require (
 	github.com/sensu/sensu-go/api/core/v2 v2.14.0
