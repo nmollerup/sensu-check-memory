@@ -1,3 +1,4 @@
+project_name: "sensu-check-memory"
 builds:
   # List of builds
   - main: ./cmd/check-memory/main.go
