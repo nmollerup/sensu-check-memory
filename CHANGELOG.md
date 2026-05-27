@@ -1,6 +1,6 @@
 
-<a name="unreleased"></a>
-## [Unreleased](https://github.com/nmollerup/sensu-check-memory/compare/0.1.1...HEAD)
+<a name="0.2.0"></a>
+## [0.2.0](https://github.com/nmollerup/sensu-check-memory/compare/0.1.1...0.2.0) (2026-05-27)
 
 ### Features
 
