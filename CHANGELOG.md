@@ -1,4 +1,12 @@
 
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/nmollerup/sensu-check-memory/compare/0.2.0...0.2.1) (2026-05-27)
+
+### Build
+
+* Fix goreleaser archive configuration for correct asset packaging
+
+
 <a name="0.2.0"></a>
 ## [0.2.0](https://github.com/nmollerup/sensu-check-memory/compare/0.1.1...0.2.0) (2026-05-27)
 
