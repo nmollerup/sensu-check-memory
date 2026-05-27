@@ -62,7 +62,7 @@ func executeCheck(event *corev2.Event) (int, error) {
 	if err != nil {
 		return sensu.CheckStateCritical, fmt.Errorf("failed to open /proc/vmstat: %w", err)
 	}
-	defer f.Close()
+	defer func() { _ = f.Close() }()
 
 	ts := time.Now().Unix()
 	scanner := bufio.NewScanner(f)
