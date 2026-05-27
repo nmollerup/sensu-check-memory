@@ -72,21 +72,8 @@ checksum:
 
 archives:
   - id: tar
-    ids:
-      - check-memory
-      - check-swap
-      - metrics-memory
     formats: tar.gz
-    files:
-      - LICENSE
-      - README.md
-      - CHANGELOG.md
-
-  - id: tar-linux
-    ids:
-      - metrics-memory-vmstat
-    formats: tar.gz
-    name_template: "{{ .ProjectName }}-vmstat_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
+    allow_different_binary_count: true
     files:
       - LICENSE
       - README.md
